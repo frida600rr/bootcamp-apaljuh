@@ -7,6 +7,7 @@
 #include <algorithm>
 using namespace std;
 
+
 void stanje(int &budget,int &chipovi);
 
 void uplata(int &budget,int &chipovi);
@@ -58,7 +59,7 @@ int main(){
             break;
         default:
             cout<<"Unijeli ste krivi izbor, birajte ponovo!" <<endl;
-
+            cout<<"ovo bi trebala bit nova promjena"<<endl;
           }
 
         izbornik();
